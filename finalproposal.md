@@ -127,7 +127,7 @@ Column Name Description
 
 ## Models and Approach :
 
-Since my problem comes under predicting the input variables, i am interested in using the below algorithms to achieve good performance.
+Selecting the right model is a big challenge in machine learning. Since my problem comes under predicting the input variables, I am interested in using the below algorithms to achieve good performance.
 - Logistic regression
 - Decision tree
 - Random forest
