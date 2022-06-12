@@ -29,11 +29,11 @@ The Motor Vehicle Collisions data tables contain information from all police rep
 
 ## Data Source :
 
-https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4
-Size    : 114.4MB
-Rows    : 3.7M
-Columns : 25
-Each row represents motor vehicle invloved in a crash.
+- https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4
+- Size    : 114.4MB
+- Rows    : 3.7M
+- Columns : 25
+- Each row represents motor vehicle invloved in a crash.
 
 ## Data Description :
 Column Name Description
@@ -96,6 +96,13 @@ Column Name Description
 - For the accidents having damages on the back end the driver was mostly backing the car.
 - When there is only one person in the vehicle lack of attention and over speeding were the causes for accidents.
 - Compared to females, men cause a lot of accidents due to distraction.
+
+### Plan for ML :
+
+- Categorical columns      : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour'
+- Numerical columns        : 'how_old'
+- x(independent variable)  : 'CONTRIBUTING_FACTOR_1'
+- y(dependent variables)   : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour','how_old'
 
 ## What is your issue of interest (provide sufficient background information)?
 Understanding the New York automobile collision dataset and developing a multiclass classifier to categorize the main factors for those collisions.
