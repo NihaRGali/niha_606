@@ -8,7 +8,7 @@ Understanding the contributing factor for vehicle crashes dataset of New York ci
 
 Every day, people are gravely injured in car accidents. According to the US Department of Transportation, 943 persons were killed in car accidents in New York state in 2018. **This equates to about three persons per day**. Many of these mishaps could have been avoided totally. Our personal injury lawyers at Rosenbaum & Rosenbaum, P.C. feel that **understanding New York City vehicle accident data is critical to keeping people safe on the roadways**. According to the New York Police Department, there were 7,456 motor vehicle accidents in June 2020 alone–at a time when the entire city remained largely shut down in response to the COVID-19 pandemic. 
 
-NYPD data provides a monthly statistical analysis of the most common causes of NYC car accidents. Some of the common causes of NYC car accidents for June 2016 include:
+NYPD data provides a monthly statistical analysis of the most common causes of NYC car accidents. Some of the common causes of NYC car accidents for June 2020 include:
 
 - Driver distraction (2,127 crashes)
 - Following too closely (577 crashes)
@@ -23,7 +23,7 @@ Understanding the vehicle crashes dataset of New York and develop a multiclass c
 
 ## About the data :
 
-The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash.**Each row represents a motor vehicle involved in a crash**. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
+The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash.**Each row represents a motor vehicle involved in a crash**. The data in this table goes back to April 2016(2016-2021) when crash reporting switched to an electronic system.
 
 The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.
 
@@ -64,7 +64,26 @@ Column Name Description
 - CONTRIBUTING_FACTOR_1 Factors contributing to the collision for designated vehicle
 - CONTRIBUTING_FACTOR_2 Factors contributing to the collision for designated vehicle
 
+## Questions for Analysis :
 
+- Understandig the contributing factor 
+  - Found out that it has these divisions
+ ` - Unspecified                       2121223
+ ` - Driver Inattention/Distraction     441483
+  `- Failure to Yield Right-of-Way      122919
+  `- Following Too Closely              113854
+  `- Other Vehicular   
+- To find the extent of property damage
+`Found out that more than 90% of the data has 'No' that means in more than 90% of crashes there was no property damage.
+- What part f vehicle was damaged moslty ?
+`Most of the damages have occured at the front end of the car compared to other parts.
+- What vehicles were involved in the accident ?
+`Most of the damages have occured at the front end of the car compared to other parts.
+- Identify drivers license and sex distribution
+`About 95% of people who were involved in an accident are licensed. Most of the damages have occured at the front end of the car compared to other parts.
+- Accident distribution over time
+`I observed that during the years 2017, 2018 we have an average of 175000 accident.
+`There is a decrease in the number of accidents in 2020 and 2021 due to the pandemic.
 ## Analysis :
 ### Data Cleaning and Engineering :
 #### Observations :
@@ -101,8 +120,7 @@ Column Name Description
 ## Plan for ML :
 
 
-| Categorical columns      | 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour' |
---------------------------------------------------------------------------------------------------------|
+- Categorical columns      : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour' 
 - Numerical columns        : 'how_old'
 - x(independent variable)  : 'CONTRIBUTING_FACTOR_1'
 - y(dependent variables)   : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour','how_old'
