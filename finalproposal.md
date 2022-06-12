@@ -23,7 +23,7 @@ Understanding the vehicle crashes dataset of New York and develop a multiclass c
 
 ## About the data :
 
-The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash.** Each row represents a motor vehicle involved in a crash**. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
+The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash.**Each row represents a motor vehicle involved in a crash**. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
 
 The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.
 
