@@ -84,6 +84,7 @@ Column Name Description
 - Accident distribution over time
   - I observed that during the years 2017, 2018 we have an average of 175000 accident.
   - There is a decrease in the number of accidents in 2020 and 2021 due to the pandemic.
+  
 ## Analysis :
 ### Data Cleaning and Engineering :
 #### Observations :
