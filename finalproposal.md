@@ -64,6 +64,25 @@ Column Name Description
 - CONTRIBUTING_FACTOR_1 Factors contributing to the collision for designated vehicle
 - CONTRIBUTING_FACTOR_2 Factors contributing to the collision for designated vehicle
 
+## Analysis :
+### Data Cleaning and Engineering :
+#### Observations :
+- There are very few rows like unique_id, collision_id, date and time with no missing data.
+- Columns such as VEHICLE_MODEL, VEHICLE_DAMAGE_1, VEHICLE_DAMAGE_2, VEHICLE_DAMAGE_3, PUBLIC_PROPERTY_DAMAGE_TYPE have more than 65% of missing values.
+- Reduced the number of rows with values 'Unspecified' by 49.8%.
+- More than 90% of the data has 'No' that means in more than 90% of crashes there was no property damage.
+- Most of the damages have occured at the front end of the car compared to other parts.
+- A great portion of cars that were involved in an accident were either going straight or were parked.
+- About 95% of people who were involved in an accident are licensed.
+- Majority of accidents were caused by Males.
+- In 80% of the cases there is only one person in the vehicle which was involved in an accident.
+- Droping the unnecessary columns
+  - UNIQUE_ID, COLLISION_ID, and VEHICLE_ID as they are unique and don't add value for this analysis.
+  - CRASH_DATE, CRASH_TIME, VEHICLE_YEAR, CONTRIBUTING_FACTOR_2, and VEHICLE_MAKE as we extracted the main information from them.
+  - VEHICLE_MODEL, PUBLIC_PROPERTY_DAMAGE, PUBLIC_PROPERTY_DAMAGE_TYPE as most of the data is missing.
+  - STATE_REGISTRATION, DRIVER_LICENSE_STATUS, TRAVEL_DIRECTION, and DRIVER_LICENSE_JURISDICTION as data is highly skewed
+  -  VEHICLE_DAMAGE_cleaned as POINT_OF_IMPACT and VEHICLE_DAMAGE_cleaned very highly correlated.
+
 ## What is your issue of interest (provide sufficient background information)?
 Understanding the New York automobile collision dataset and developing a multiclass classifier to categorize the main factors for those collisions.
 ## Why is this issue important to you and/or to others?
