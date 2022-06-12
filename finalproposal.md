@@ -68,22 +68,22 @@ Column Name Description
 
 - Understandig the contributing factor 
   - Found out that it has these divisions
- ` - Unspecified                       2121223
- ` - Driver Inattention/Distraction     441483
-  `- Failure to Yield Right-of-Way      122919
-  `- Following Too Closely              113854
-  `- Other Vehicular   
+    - Unspecified                       2121223
+    - Driver Inattention/Distraction     441483
+    - Failure to Yield Right-of-Way      122919
+    - Following Too Closely              113854
+    - Other Vehicular   
 - To find the extent of property damage
-`Found out that more than 90% of the data has 'No' that means in more than 90% of crashes there was no property damage.
+  - Found out that more than 90% of the data has 'No' that means in more than 90% of crashes there was no property damage.
 - What part f vehicle was damaged moslty ?
-`Most of the damages have occured at the front end of the car compared to other parts.
+  - Most of the damages have occured at the front end of the car compared to other parts.
 - What vehicles were involved in the accident ?
-`Most of the damages have occured at the front end of the car compared to other parts.
+  - Most of the damages have occured at the front end of the car compared to other parts.
 - Identify drivers license and sex distribution
-`About 95% of people who were involved in an accident are licensed. Most of the damages have occured at the front end of the car compared to other parts.
+  - About 95% of people who were involved in an accident are licensed. Most of the damages have occured at the front end of the car compared to other parts.
 - Accident distribution over time
-`I observed that during the years 2017, 2018 we have an average of 175000 accident.
-`There is a decrease in the number of accidents in 2020 and 2021 due to the pandemic.
+  - I observed that during the years 2017, 2018 we have an average of 175000 accident.
+  - There is a decrease in the number of accidents in 2020 and 2021 due to the pandemic.
 ## Analysis :
 ### Data Cleaning and Engineering :
 #### Observations :
