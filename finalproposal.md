@@ -134,16 +134,19 @@ Since my problem comes under predicting the input variables, i am interested in 
 - Gradient Boosting Classifier
 - Ada Boost Classifier
 
+## Developing performance of models :
+
+Based on the type of machine learning problem, classification, clustering and regression, various statistics and visualizations are generated including accuracy, confusion matrix, receiver operating characteristic (ROC) curve, cluster distortion, and means squared error (MSE). I would like to implement the avove stated model and based on the accuracy, recall and performance i would pick the best model that suits the data.
+
+
 ## Summary and Future Scope
 
 I would use the model that identifies the less frequently occuring classes more accurately compared to the complex algorithms.For the future of the project, I would like to identify various data sources that would help us look at a bigger picture of what the major contributing factors of the accident are and merge them with the existing dataset. Also, build machine learning models that could more accurately classify the contributing factor for an accident.
 
 
-## What questions do you have in mind and would like to answer?
 
 
-## What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
-## What kinds of techniques/models do you plan to use (for example, clustering, NLP, ARIMA, etc.)?
-## How do you plan to develop/apply ML and how you evaluate/compare the performance of the models?
+
+
 
 
