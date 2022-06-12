@@ -3,6 +3,20 @@
 ## Topic : 
 Understanding the contributing factor for vehicle crashes dataset of New York city
 
+## Historical Background :
+Every day, people are gravely injured in car accidents. According to the US Department of Transportation, 943 persons were killed in car accidents in New York state in 2018. This equates to about three persons per day.
+
+Many of these mishaps could have been avoided totally. Our personal injury lawyers at Rosenbaum & Rosenbaum, P.C. feel that understanding New York City vehicle accident data is critical to keeping people safe on the roadways.According to the New York Police Department, there were 7,456 motor vehicle accidents in June 2020 alone–at a time when the entire city remained largely shut down in response to the COVID-19 pandemic. 
+
+NYPD data provides a monthly statistical analysis of the most common causes of NYC car accidents. Some of the common causes of NYC car accidents for June 2016 include:
+
+- Driver distraction (2,127 crashes)
+- Following too closely (577 crashes)
+- Failure to yield the right of way (484 crashes)
+- Improper passing or lane usage (311 crashes)
+- Speeding (293 crashes)
+- Drunk driving or illegal drug use (138 crashes)
+
 ## Problem Statement : 
 Understanding the vehicle crashes dataset of New York and develop a multiclass classifier to classify the contributing factor for those crashes
 
