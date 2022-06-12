@@ -6,6 +6,14 @@ Understanding the contributing factor for vehicle crashes dataset of New York ci
 ## Problem Statement : 
 Understanding the vehicle crashes dataset of New York and develop a multiclass classifier to classify the contributing factor for those crashes
 
+## About the data :
+The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash.** Each row represents a motor vehicle involved in a crash**. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
+
+The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.
+
+## Data Source :
+https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4
+
 ## What is your issue of interest (provide sufficient background information)?
 Understanding the New York automobile collision dataset and developing a multiclass classifier to categorize the main factors for those collisions.
 ## Why is this issue important to you and/or to others?
