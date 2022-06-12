@@ -67,6 +67,7 @@ Column Name Description
 ## Analysis :
 ### Data Cleaning and Engineering :
 #### Observations :
+
 - There are very few rows like unique_id, collision_id, date and time with no missing data.
 - Columns such as VEHICLE_MODEL, VEHICLE_DAMAGE_1, VEHICLE_DAMAGE_2, VEHICLE_DAMAGE_3, PUBLIC_PROPERTY_DAMAGE_TYPE have more than 65% of missing values.
 - Reduced the number of rows with values 'Unspecified' by 49.8%.
@@ -81,7 +82,20 @@ Column Name Description
   - CRASH_DATE, CRASH_TIME, VEHICLE_YEAR, CONTRIBUTING_FACTOR_2, and VEHICLE_MAKE as we extracted the main information from them.
   - VEHICLE_MODEL, PUBLIC_PROPERTY_DAMAGE, PUBLIC_PROPERTY_DAMAGE_TYPE as most of the data is missing.
   - STATE_REGISTRATION, DRIVER_LICENSE_STATUS, TRAVEL_DIRECTION, and DRIVER_LICENSE_JURISDICTION as data is highly skewed
-  -  VEHICLE_DAMAGE_cleaned as POINT_OF_IMPACT and VEHICLE_DAMAGE_cleaned very highly correlated.
+  - VEHICLE_DAMAGE_cleaned as POINT_OF_IMPACT and VEHICLE_DAMAGE_cleaned very highly correlated.
+
+### EDA :
+#### Observations :
+
+- I observed that during the years 2017, 2018 there was an average of 175,000 accident.
+- There is a decrease in the number of accidents in 2020 and 2021 due to the pandemic.
+- I observed that their was a sudden spike in the number of accidents in the months of May and June.
+- Contrast to common conception most of the accidents took place in the afternoon.
+- Lack of attention was the major contributor for accidents followed by following too closely, not DUI or DWI.
+- For the accidents having damages on the front end the driver was going straight.
+- For the accidents having damages on the back end the driver was mostly backing the car.
+- When there is only one person in the vehicle lack of attention and over speeding were the causes for accidents.
+- Compared to females, men cause a lot of accidents due to distraction.
 
 ## What is your issue of interest (provide sufficient background information)?
 Understanding the New York automobile collision dataset and developing a multiclass classifier to categorize the main factors for those collisions.
