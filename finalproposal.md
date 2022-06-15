@@ -123,8 +123,8 @@ Column Name Description
 
 - Categorical columns      : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour' 
 - Numerical columns        : 'how_old'
-- x(independent variable)  : 'CONTRIBUTING_FACTOR_1'
-- y(dependent variables)   : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour','how_old'
+- x(independent variables) : 'VEHICLE_TYPE','DRIVER_SEX','POINT_OF_IMPACT','MAKE','Month','Week','Hour','how_old'
+- y(dependent variable)    : 'CONTRIBUTING_FACTOR_1'
 
 ## Models and Approach :
 
