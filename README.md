@@ -1,5 +1,4 @@
-                                                       ## PROJECT REPORT ##
-
+## PROJECT REPORT :
 
 - Link to my presentation : https://drive.google.com/file/d/1-ZGlZQWmUhD38TFY8Y-CtWKrDBViLWyG/view?usp=sharing
 - Link to my video        : https://youtu.be/CyxAzJt6Yls
